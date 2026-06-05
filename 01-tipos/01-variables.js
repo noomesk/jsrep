@@ -2,7 +2,7 @@
 //camelCase: Es una convención de nombrado en la que la primera palabra comienza con minúscula y cada palabra subsiguiente comienza con mayúscula, sin espacios ni guiones. Se utiliza comúnmente para nombrar variables y funciones en JavaScript.
 //Snake_case: Es una convención de nombrado en la que las palabras están separadas por guiones bajos (_) y todas las letras están en minúscula. Se utiliza comúnmente para nombrar variables y funciones en algunos lenguajes de programación, aunque no es tan común en JavaScript.
 
-// let nombre; -> undefined
+// let nombre; -> undefined (no definido)
 let nombre = "Angie";
 
 console.log(nombre);
