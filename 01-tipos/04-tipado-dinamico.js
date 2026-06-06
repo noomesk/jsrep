@@ -4,6 +4,12 @@ let verdadero = true;
 let undef;
 let nulo = null;
 
-nombre = 123; // el tipo de dato se puede cambiar, es decir, no es necesario declarar el tipo de dato al momento de crear la variable, esto es lo que se conoce como tipado dinámico
+//nombre = 123; // el tipo de dato se puede cambiar, es decir, no es necesario declarar el tipo de dato al momento de crear la variable, esto es lo que se conoce como tipado dinámico
 
-console.log(nombre);
+//console.log(nombre);
+// como puedo ver, el valor de la variable nombre ha cambiado a un número, aunque antes era una cadena de texto, esto es lo que se conoce como tipado dinámico, es decir, el tipo de dato de una variable puede cambiar a lo largo del tiempo.
+console.log(typeof numero);
+console.log(typeof nombre);
+console.log(typeof verdadero);
+console.log(typeof undef);
+console.log(typeof nulo);
