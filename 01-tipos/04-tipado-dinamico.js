@@ -13,3 +13,5 @@ console.log(typeof nombre);
 console.log(typeof verdadero);
 console.log(typeof undef);
 console.log(typeof nulo);
+
+// ¿por qué null debuelve un objeto? esto es un error en JavaScript, pero se mantiene por razones de compatibilidad, es decir, si se cambiara el tipo de dato de null a null, muchas aplicaciones que dependen de este comportamiento dejarían de funcionar, por lo tanto, se decidió mantener este error en el lenguaje.

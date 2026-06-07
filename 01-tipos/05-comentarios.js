@@ -14,5 +14,5 @@ console.log(numero); // esto es un comentario de una sola linea, y no afecta en 
  * lo que me ayuda a entender mejor el código y a recordar lo que hace cada función o variable sin tener que leer todo el código.
  * entonces cada vez que le de enter, me va a crear una nueva linea con un asterisco, y puedo seguir escribiendo mi comentario de varias lineas, y cuando termine, simplemente cierro el comentario con otro asterisco y una barra, y listo, ya tengo mi comentario de varias lineas listo para ser utilizado.
  * jajaj magiko amikos!!
- * ang tqm ♥ 
+ * ang tqm ♥  
  */
