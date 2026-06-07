@@ -1,5 +1,6 @@
 // parametros (a) es un parametro dentro de la función:
 function suma(a, b){
+    console.log(arguments)
     return a+b;
 }
 
@@ -19,6 +20,5 @@ esta utilizando el primer parametro (a) y el segundo parametro no se esta utiliz
 de la función, por lo tanto, el resultado de la función sigue siendo 7, aunque le estemos 
 pasando un segundo argumento. */
 
-let resultado = suma(5, 6);
-console.log(resultado);
+let resultado = suma(5, 6, 7, 8, 9);// aqui le pasé más argumentos a la funcion 
 console.log(typeof suma);
