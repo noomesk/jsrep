@@ -13,3 +13,10 @@
 console.log(1 | 3);  // 0000011
 console.log(1 | 4); // 00000101
 console.log(3 | 5); // 00000111
+
+//Operador and de bitwise (&)
+console.log(1 & 3); // 00000001 
+console.log(1 & 4); // 00000000
+console.log(3 & 5); // 00000001
+
+//no estoy entendiendo como sacar el byte final (revisar ese cálculo)
