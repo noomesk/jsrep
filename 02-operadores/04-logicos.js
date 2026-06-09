@@ -17,3 +17,5 @@ console.log("operador or", mayorDeEdad || suscrito); //true, porque al menos una
 //NOT
 console.log("operador not", !mayorDeEdad); // false, porque la negación de true es false
 //Como mayor de edad es true, pero NOT es la negación entonces lo invierte y ahora quda false. 
+
+let catalogoinfantil = !mayorDeEdad; //esto me da el resultado de la negación de mayorDeEdad, es decir, si mayorDeEdad es true, entonces catalogoinfantil es false, y viceversa
