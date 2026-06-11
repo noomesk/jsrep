@@ -4,4 +4,4 @@ console.log(resultado);
 
 /* let resultado = 8/(2*(2+2));
 console.log(resultado); */ 
-//agrego paréntesis alrededor de la operación que quiero que se ejecute primero
+//agrego paréntesis alrededor de la operación que quiero que se ejecute primero ;)
