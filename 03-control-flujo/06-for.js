@@ -6,14 +6,14 @@ while (i < 2) {
     i++; 
 }  */
 
-for (let i = 2; i < 10; i++) {
+for (let i = 2; i < 10; i++) { // contiene todo en esta línea
     if (i % 2 == 0) {
         console.log("Numero par", i); 
     }
 }
 
 
-/* tambn es un loop, la diferencia con while es q se compone de 3 condiciones:
+/* tambn es un loop, pero contiene todo en UNA SOLA LÍNEA, la diferencia con while es q se compone de 3 condiciones:
 - inicialización: let i = 2; ->inicilializar una variable 
 -comparación: i < 10; comparar esa variable con algo, si se cumple ejecutamos el código
 -terminar iteración: i++; aqui indicamos qué es lo que hacemmos con esta variable para salir del loop
