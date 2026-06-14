@@ -14,12 +14,16 @@ si no
     devolver b */ //eso es else if
 
 function cualEsMayor(a, b) {
-if (a > b) {
+/* if (a > b) {
     return a; 
 } else {
     return b; 
-}
+} */
+    return (a > b) ? a:b; 
 }
 
+//ahora llamo a la función y defino valores de las variables: 
 let mayor = cualEsMayor(10,5);
     console.log("El número mayor es: ", mayor);
+
+//manera corta de resolver el mismo ejercicio según el profe: return (a > b) ? a:b;  jaja mucho más fácil mk q chistoso...  
