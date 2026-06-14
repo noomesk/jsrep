@@ -48,3 +48,10 @@ o, si usas la extensión Live Server de VS Code, haz clic en "Go Live".
 ---
 
 Pequeño repaso para volver a coger soltura con JavaScript puro. ¡A practicar!
+
+## Progreso actual
+
+- **Control de flujo:** ejemplos en `03-control-flujo/` hasta `10-switch.js` — incluye `for-in`, `for-of`, `break/continue` y `switch`.
+- **Funciones y ejercicios:** `04-ejercicios/01.js` — ejercicio en curso: implementar `cualEsMayor(a, b)` para devolver (con `return`) el número mayor.
+- **Cómo probar:** abrir `index.html` o usar Live Server / `npx http-server . -p 8080` y revisar la consola del navegador.
+- **Siguientes pasos:** completar los ejercicios en `04-ejercicios/`, repasar ejemplos de bucles y condicionales, y, si se quiere publicar, revisar la configuración de `git`/remotos.
