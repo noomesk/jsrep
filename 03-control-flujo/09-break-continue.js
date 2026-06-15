@@ -9,3 +9,5 @@ while (i < 6) {
     }
     console.log(i);
 }
+
+//break sirve para: for, for in, for of, do while :)
