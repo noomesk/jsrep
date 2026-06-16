@@ -1,0 +1,22 @@
+//es una colección de info de cualquier tipo, hasta puedo guardar funciones
+let numbers = [1, 2, 3, 7, 11, 24];
+console.log(numbers.length); //la propiedad length me da la longitud del array 
+console.log(numbers[4]); //asi se obtiene la posición del array con un índice, si no existe sale undefined
+console.log(numbers.length-1); // -1 para acceder a la última poscición
+
+//otra forma de acceder a los elementos del array, en lugar de usar los corchetes
+// vamos a usar un método, basta con poner un punto alado de la variable y se van a desplegar muchos métodos
+console.log(numbers.at(-3)); //funciona igual que []
+/*
+hay algo distinto con .at y es que recibe números negativos, y lo que se obtendria es un conteo del final al principio
+Es más facil con .at cuando se trabaja desde los últimos elementos */
+
+//Para poder ver TODO el contenido de un array: 
+/* for(let i = 0; i < numbers.length; i++) {
+    console.log(numbers[i]);
+} */
+
+//para poder verlom pero de atràs hacia adelante uso:
+for (let i = numbers.length - 1 ; i >= 0 ; i--) {
+    console.log(numbers[i]);
+}

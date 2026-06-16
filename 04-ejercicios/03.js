@@ -6,12 +6,12 @@
  */
 
 function getbyIdx(arr, idx) {
-    if (idx > 0) {
-        return "indice no vàlido"; 
-    } else if (idx (no sè como poner valor inexistente...)) {
+    if (idx >= arr.length) {
+        return arr[idx]; 
+    } else if (idx > arr.length) {
         return "indice no vàlido"; 
     } else {
-        return getbyIdx;  
+        return arr[idx];  
     }
 
 }
