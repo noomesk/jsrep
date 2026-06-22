@@ -8,13 +8,13 @@
 function getbyIdx(arr, idx) {
     if (idx < 0 || idx >= arr.length) {
         return "indice no vàlido";  
-    } else {
-        return arr[idx];  
-    }
+    }// else {   -> el profe no coloca el else, sino solo un return después, xq cuando haces un return, la función termina y ya no necesitas el else. 
+        return arr[idx];   // Se suele llamar early return ("retorno temprano").
+    //}
 
 }
 
-let resultado = getbyIdx([1, 2], 1);
+let resultado = getbyIdx([1, 2], 0);
 console.log(resultado);
 
 //revisar array
