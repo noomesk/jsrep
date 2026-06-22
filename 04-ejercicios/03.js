@@ -6,10 +6,8 @@
  */
 
 function getbyIdx(arr, idx) {
-    if (idx >= arr.length) {
-        return arr[idx]; 
-    } else if (idx > arr.length) {
-        return "indice no vàlido"; 
+    if (idx < 0 || idx >= arr.length) {
+        return "indice no vàlido";  
     } else {
         return arr[idx];  
     }

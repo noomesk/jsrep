@@ -34,6 +34,7 @@ function nombreResolucion(ancho, alto) {
 }
 
 let nombre = nombreResolucion(3500, 5068);
-console.log(nombre);  
+console.log(nombre); 
 
-// todo estaba bien, excepto algunas cosillas de indentación... sangria recordalo ché!!
+// todo estaba bien, excepto algunas cosillas de indentación... sangria recordalo ché!!}
+//reviisar if
