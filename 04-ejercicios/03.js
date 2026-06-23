@@ -17,4 +17,3 @@ function getbyIdx(arr, idx) {
 let resultado = getbyIdx([1, 2], 0);
 console.log(resultado);
 
-//revisar array
